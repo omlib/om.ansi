@@ -1,0 +1,13 @@
+{
+    "name": "om.ansi",
+    "version": "0.0.0",
+    "description": "ANSI escape codes",
+    "tags": ["om","ansi"],
+    "url": "https://github.com/tong/om.ansi",
+    "license": "OM",
+    "contributors": ["tong"],
+    "releasenote": "See CHANGELOG.md",
+    "classPath" : "src/",
+    "dependencies": {
+	}
+}
