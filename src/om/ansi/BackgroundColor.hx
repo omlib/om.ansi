@@ -1,6 +1,6 @@
 package om.ansi;
 
-enum abstract BackgroundColor(Int) from Int to Int {
+enum abstract BackgroundColor(Int) to Int {
 
     var black = 40;
     var red = 41;

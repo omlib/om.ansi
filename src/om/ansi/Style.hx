@@ -3,7 +3,7 @@ package om.ansi;
 /**
 	SGR (Select Graphic Rendition)
 */
-enum abstract Style(Int) from Int to Int {
+enum abstract Style(Int) to Int {
 	var bright = 1;
 	var dim = 2;
 	var italic = 3;
