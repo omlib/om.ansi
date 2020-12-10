@@ -4,7 +4,7 @@
     "description": "ANSI escape codes",
     "tags": ["om","ansi"],
     "url": "https://github.com/omlib/om.ansi",
-    "license": "OM",
+    "license": "MIT",
     "contributors": ["tong"],
     "releasenote": "See CHANGELOG.md",
     "classPath" : "src/",
