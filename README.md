@@ -1,4 +1,3 @@
-
-# OM.ANSI
+# om.ansi
 
 > ANSI escape codes

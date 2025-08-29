@@ -11,10 +11,6 @@
 -xml doc/cpp.xml
 
 --next
--cs _
--xml doc/cs.xml
-
---next
 -hl _
 -xml doc/hl.xml
 
@@ -23,8 +19,8 @@
 -xml doc/interp.xml
 
 --next
--java _
--xml doc/java.xml
+--jvm _
+-xml doc/jvm.xml
 
 --next
 -lua _
