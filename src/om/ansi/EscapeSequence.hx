@@ -1,8 +1,7 @@
 package om.ansi;
 
 /**
-	ASCII escape characters and sequences.
-	https://en.wikipedia.org/wiki/ANSI_escape_code
+	[ANSI escape characters and sequences](https://en.wikipedia.org/wiki/ANSI_escape_code)
 **/
 enum abstract EscapeSequence(String) to String {
 	/**
