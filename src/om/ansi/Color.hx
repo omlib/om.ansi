@@ -1,6 +1,6 @@
 package om.ansi;
 
-enum abstract Color(Int) to Int {
+enum abstract Color(Int) from Int to Int {
 	var black = 30;
 	var red = 31;
 	var green = 32;
@@ -20,4 +20,7 @@ enum abstract Color(Int) to Int {
 	var bright_magenta = 95;
 	var bright_cyan = 96;
 	var bright_white = 97;
+
+	@:to public inline function toBackgroundColor():BackgroundColor
+		return this + 10;
 }
